@@ -1,0 +1,125 @@
+/* About US Page Styling */
+
+.nav-list-container a:hover {
+    color: var(--hover-font-color-2);
+    -webkit-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+}
+
+/* About Us Section Styling */
+
+#about-us {
+    width:100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: var(--main-bg-color); 
+}
+
+#about-us .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.about-us-content-container {
+    width: 850px;
+    height: auto;
+    margin: 55px;
+    padding: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+/* Top Container */
+
+.about-top-container {
+    width: 100%;
+    height: auto;
+    margin-top: 45px;
+}
+
+.about-top-container h1 {
+    font-size: var(--h1-font-size);
+    color: var(--main-font-color);
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Mid Container */
+
+.about-mid-container {
+    margin: 25px;
+    padding: 25px;
+}
+
+.about-mid-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Bottom Container  */
+
+.about-bottom-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.about-bottom-container h5 {
+    font-size: 1.6rem;
+    font-style: italic;
+    color: var(--main-font-color);
+    text-align: center;
+    padding: 10px;
+}
+
+.about-bottom-container p {
+    font-size: 1rem;
+    color: var(--main-font-color);
+    line-height: 1.8rem;
+    text-align: justify;
+    margin: 4px;
+    padding: 8px;   
+}
+
+/* Tablet Queries 768px */
+
+@media (max-width: 768px) {
+    .about-us-content-container {
+        margin: 15px;
+    }
+}
+
+/* Phone Queries 800px */
+
+@media (max-width: 480px) {
+    .about-mid-container {
+        margin: 15px;
+        padding: 5px;
+    }
+    .about-us-content-container {
+        padding: 0;
+    }
+}
+
+

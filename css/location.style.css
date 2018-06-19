@@ -1,0 +1,129 @@
+
+
+/* Section Styling */
+
+#location-section {
+    width:100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* background: var(--main-bg-color);  */
+}
+
+#location-section .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.location-container {
+    width: 900px;
+    height: auto;
+    margin: 25px;
+    padding: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+}
+
+/* Location Top Container */
+
+.locations-top-container {
+    width: 100%;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin: 70px 25px 25px 25px;
+    padding: 5px;
+}
+
+.locations-top-container h1 {
+    width: 250px;
+    margin: auto;
+    font-size: var(--h1-font-size);
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Location Data */
+
+.location-data-container {
+    margin: 20px;
+}
+
+#location-section .md-container {
+    padding: 25px;
+}
+
+#location-section .no-border {
+    border-top: 0;
+}
+
+/* Map Container  */
+
+#map-container {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0px;
+}
+
+/* Phone Queries 768px */
+
+@media (max-width: 768px) {
+    .locations-top-container {
+        margin-top: 0;
+        padding: 10px;
+    }
+}
+
+/* Phone Queries 480px */
+
+@media (max-width: 480px) {
+    .location-container {
+        margin: 4px;
+        padding: 4px;
+    }
+    .locations-top-container {
+        margin-top: 25px;
+    }
+    .location-data-container {
+        margin: 20px 2px;
+    }
+    .location-mid-container {
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        padding: 4px;
+    }
+    .location-mid-sub-container-1, .location-mid-sub-container-1 {
+        width: 100%;
+    }
+}
+
+/* Phone Queries 680px and Landscape Mode */
+
+@media (max-width: 680px) and (orientation: landscape) {
+    .location-container {
+        margin: 4px;
+        padding: 4px;
+    }
+    .locations-top-container {
+        margin: 4px;
+    }
+    .locations-top-container h1 {
+        border: 0;
+    }
+    
+}
