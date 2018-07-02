@@ -23,41 +23,65 @@
     <header id="head">
     
         <div class="wrapper">
-            <div class="container">
+            <div class="mobile-nav">
+
+               <div class="nav-top">
+                   <div class="branding-container nav-item">
+                        <a href="index.html"><img src="img/website_logo/Website_Logo.png" alt="Website Brand Logo"></a>
+                   </div>
+                   <div class="mobile-btn">
+                        <div class="btn">
+                                <p><i class="fas fa-bars fa-2x fa-fw"></i></p>
+                        </div> 
+                   </div>
+               </div>
+               <div class="mobile-menu">
+                    <nav id="mobile-nav-items" class="nav-list-container nav-item">
+                    <!-- <nav class="mobile-nav-links"> -->
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="menu.html">Menu</a>
+                        <a href="location.html">Location</a>
+                    </nav>
+               </div>
+            </div>
+
+            
+            <div class="container" id="main-nav">
 
                  <!-- Navigation -->
-
-                <nav class="nav-list-container nav-item">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="menu.html">Menu</a>
-                    <a href="location.html">Location</a>
-                </nav>
-
-                <!-- Website Branding -->
-
-                <div class="branding-container nav-item">
-                    <a href="index.html"><img src="img/website_logo/Website_Logo.png" alt="Website Brand Logo"></a>
-                </div>
-
-                <!-- Social Media Links -->
-
-                <div class="media-list-container nav-item">
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x fa-fw"></i></a>
-                    <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter fa-2x fa-fw"></i></a>
-                    <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram fa-2x fa-fw"></i></a>
-                </div>
-
-                <div class="mobile-menu">
-                    <p><i class="fas fa-bars fa-2x fa-fw"></i></p>
-                </div>
-
+                    <nav class="nav-list-container nav-item">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="menu.html">Menu</a>
+                        <a href="location.html">Location</a>
+                    </nav>
+    
+                    <!-- Website Branding -->
+    
+                    <div class="branding-container nav-item">
+                        <a href="index.html"><img src="img/website_logo/Website_Logo.png" alt="Website Brand Logo"></a>
+                    </div>
+    
+                    <!-- Social Media Links -->
+    
+                    <div class="media-list-container nav-item">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x fa-fw"></i></a>
+                        <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter fa-2x fa-fw"></i></a>
+                        <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram fa-2x fa-fw"></i></a>
+                    </div>
             </div>
 
         </div>
-        
 
     </header>
+
+
+    <!-- Scroll Button -->
+    <div class="scrollBtn">
+        <a href="#head"><i class="fas fa-arrow-up fa-2x fa-fw"></i></a>
+    </div>
+
 
     <!-- Landing Section -->
     <section id="landing-section">
@@ -253,8 +277,13 @@
 
     </footer>
 
-
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>
     <script src="js/home.page.js"></script>
+    <script src="js/scroll.js"></script>
     
 </body>
 </html>

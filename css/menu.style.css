@@ -86,8 +86,8 @@
     overflow: hidden;
     cursor: pointer;
     background: var(--main-bg-color);
-    -webkit-box-shadow: 3px 5px 10px 0px #615f5f;
-    box-shadow: 3px 5px 10px 0px #615f5f;
+    -webkit-box-shadow: 3px 5px 5px 0px #4d4d4d8a;
+    box-shadow: 3px 5px 10px 0px #4d4d4d8a;
     position: relative;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -98,10 +98,13 @@
 .menu-item-container:hover {
     -webkit-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
+    transform: translateY(-5px);
+    -webkit-box-shadow: 3px 10px 15px 0px #4d4d4d8a;
+    box-shadow: 3px 10px 15px 0px #4d4d4d8a;
     -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
-    -webkit-box-shadow: 3px 10px 15px 0px #615f5f;
-            box-shadow: 3px 10px 15px 0px #615f5f;
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
 }
 
 .product-ribbon {
@@ -119,8 +122,8 @@
     line-height: 2rem;
     padding-top: 5px;
     padding-left: 8px;
-    -webkit-box-shadow: 0px 2px 5px 0 black;
-            box-shadow: 0px 2px 5px 0 black;
+    -webkit-box-shadow: 0px 2px 5px 0 #4d4d4d8a;
+            box-shadow: 0px 2px 5px 0 #4d4d4d8a;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
 }
