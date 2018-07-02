@@ -1,10 +1,10 @@
-# Portfolio Project 1
-## Pizzeria Project
+# Portfolio Project 1.
+## Small Pizzeria Restaurant Project.
 https://zygist.github.io/Portfolio_Project_1/
-## _Disclaimer_
-This is a restaurant project for my portfolio.
-This project is not intended for distribution or monetazation of any kind.
-All images and icons in this project are used purely for educational purposes.
+## _Disclaimer
+_This is a restaurant project for my portfolio._
+_This project is not intended for distribution or monetazation of any kind._
+_All images and icons in this project are used purely for `educational purposes.`_
 
 
 ### _ChangeLog_:
