@@ -13,3 +13,7 @@ _All images and icons in this project are used purely for `educational purposes.
   *  Improvements in the CSS file `@Media Queries` to fix website layout not displaying correctly on some smaller screen devices.
   *  General cleanup in the CSS files.
   *  Minor design changes on the website.
+
+
+Portfolio_Project_1/img/website_images/Landing_img.jpg
+      
