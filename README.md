@@ -14,6 +14,5 @@ _All images and icons in this project are used purely for `educational purposes.
   *  General cleanup in the CSS files.
   *  Minor design changes on the website.
 
-
-![Project Image](Portfolio_Project_1/img/website_images/Landing_img.jpg)
+(Portfolio_Project_1/img/website_images/Landing_img.jpg)
       
