@@ -15,5 +15,5 @@ _All images and icons in this project are used purely for `educational purposes.
   *  Minor design changes on the website.
 
 
-Portfolio_Project_1/img/website_images/Landing_img.jpg
+![Project Image](Portfolio_Project_1/img/website_images/Landing_img.jpg)
       
