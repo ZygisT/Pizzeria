@@ -1,7 +1,6 @@
 # Portfolio Project 1.
 ## Small Pizzeria Restaurant Project.
 ## _Disclaimer_
-_This is a restaurant project for my portfolio._
 _This project is not intended for distribution or monetazation of any kind._
 _All images and icons in this project are used purely for `educational purposes.`_
 
