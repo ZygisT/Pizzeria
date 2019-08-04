@@ -1,4 +1,4 @@
-## Pizzeria restaurant project.
+## Restaurant project.
 
 #### Project created with HTML5, CSS3 and jQuery.
 
