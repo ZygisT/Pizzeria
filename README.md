@@ -1,6 +1,6 @@
 ## Pizzeria restaurant project.
 
-#### Project created with HTML5, CSS3 and Jquery.
+#### Project created with HTML5, CSS3 and jQuery.
 
 ### ChangeLog:
 #### 02/07/2018 Changes:
