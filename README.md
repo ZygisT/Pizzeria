@@ -3,8 +3,6 @@ https://zygist.github.io/restaurant-project/
 
 #### Project created with HTML5, CSS3 and jQuery.
 
-Older project created for a restaurant.
-
 ### ChangeLog:
 #### 02/07/2018 Changes:
   *  Fixed navigation bar logic in Javascript file where mobile navigation didn't open correctly.  
